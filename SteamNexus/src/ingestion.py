@@ -15,7 +15,7 @@ def download_datasets():
     
     # Check credentials
     if not os.getenv('KAGGLE_USERNAME') or not os.getenv('KAGGLE_KEY'):
-        print("❌ Error: Kaggle credentials not found in .env file.")
+        print("Error: Kaggle credentials not found in .env file.")
         print("Please check .env.example and create your .env file with KAGGLE_USERNAME and KAGGLE_KEY.")
         return
 
@@ -44,7 +44,7 @@ def download_datasets():
     print(f"--- Starting Data Ingestion: Steam Nexus ---")
 
     for ds in datasets:
-        print(f"\n📥 Downloading {ds['slug']}...")
+        print(f"\n[Downloading] {ds['slug']}...")
         try:
             # Download dataset
             api.dataset_download_files(ds['slug'], path=raw_data_dir, unzip=True)
@@ -59,15 +59,15 @@ def download_datasets():
                 if os.path.exists(target_file):
                     os.remove(target_file)
                 os.rename(source_file, target_file)
-                print(f"✅ Successfully downloaded and renamed to: {ds['target_name']}")
+                print(f"OK: Successfully downloaded and renamed to: {ds['target_name']}")
             else:
-                print(f"⚠️ Warning: {ds['filename_in_zip']} not found after extraction. Checking directory...")
+                print(f"Warning: {ds['filename_in_zip']} not found after extraction. Checking directory...")
                 # Fallback: list files to see what was downloaded
                 files = os.listdir(raw_data_dir)
                 print(f"Current files in raw/: {files}")
 
         except Exception as e:
-            print(f"❌ Error downloading {ds['slug']}: {e}")
+            print(f"Error downloading {ds['slug']}: {e}")
 
     print(f"\n--- Ingestion Completed ---")
     print(f"Data location: {raw_data_dir}")

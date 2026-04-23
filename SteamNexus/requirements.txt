@@ -7,3 +7,4 @@ networkx
 nltk
 kaggle
 python-dotenv
+python-pptx

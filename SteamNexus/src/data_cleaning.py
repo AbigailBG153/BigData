@@ -9,8 +9,9 @@ def process_steam_games():
     """
     
     # 1. Path Configuration (Relative to project root)
-    raw_path = "data/raw/steam_games_raw.csv"
-    output_path = "data/processed/steam_games_cleaned_v1.csv"
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    raw_path = os.path.join(base_dir, "data", "raw", "steam_games_raw.csv")
+    output_path = os.path.join(base_dir, "data", "processed", "steam_games_cleaned_v1.csv")
     
     print("--- Starting Cleaning Pipeline: Steam Nexus ---")
     

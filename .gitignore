@@ -1,0 +1,46 @@
+# --- Seguridad y Configuración ---
+.env
+.env.local
+.vscode/
+.idea/
+
+# --- Kaggle API ---
+.kaggle/
+kaggle.json
+
+# --- Datos Pesados (Big Data) ---
+# Ignoramos todos los CSVs y archivos crudos pesados
+SteamNexus/data/raw/
+SteamNexus/data/processed/
+*.csv
+*.zip
+*.json
+*.parquet
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+build/
+dist/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Artefactos y Salidas ---
+# Ignoramos presentaciones generadas e imágenes temporales
+*.pptx
+*.png
+*.jpg
+*.jpeg
+*.pdf
+SteamNexus/artifacts/
+
+# --- Otros ---
+.DS_Store
+Thumbs.db

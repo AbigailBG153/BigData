@@ -2,17 +2,13 @@
 
 ## 1. Declaración del Proyecto
 
-**Dominio:** Entretenimiento Digital y Videojuegos (Ecosistema Steam).
+En este contexto, se identifica como problemática principal la denominada “parálisis por análisis”, fenómeno que ocurre cuando los usuarios se enfrentan a una sobrecarga de opciones e información, lo que retrasa o incluso bloquea la toma de decisiones. Este comportamiento suele estar asociado a la necesidad de evaluar demasiadas alternativas, el miedo a tomar una decisión incorrecta y la dificultad para comparar múltiples variables simultáneamente, lo que impacta negativamente en la experiencia del usuario (Boogaard, 2024).
 
-**Problema:** Con más de 100,000 juegos en Steam, los usuarios sufren de "parálisis por análisis". Los sistemas de recomendación actuales suelen basarse en popularidad masiva, ignorando nichos emergentes y la evolución técnica de los géneros.
+Asimismo, los sistemas de recomendación tradicionales, si bien tienen como objetivo ayudar a los usuarios a encontrar contenido relevante de manera personalizada, presentan limitaciones importantes. En particular, se ha evidenciado la existencia de un sesgo de popularidad, donde los algoritmos tienden a recomendar predominantemente los elementos más populares del catálogo, reduciendo la exposición de aquellos pertenecientes a la “cola larga”. Este comportamiento no solo limita la diversidad y el valor de las recomendaciones para los usuarios, sino que también puede generar efectos de retroalimentación que refuerzan la popularidad de ciertos elementos a lo largo del tiempo (Klimashevskaia et al., 2024).
 
-**Pregunta del Producto:** ¿Podemos descubrir segmentos latentes de juegos y predecir el éxito de nuevas combinaciones de géneros utilizando inteligencia de grafos y procesamiento de lenguaje natural?
+A partir de esta problemática, se plantea la siguiente pregunta de producto: ¿Es posible descubrir segmentos latentes de videojuegos y predecir el éxito de nuevas combinaciones de géneros mediante el uso de técnicas de inteligencia de grafos y procesamiento de lenguaje natural?
 
-**Idoneidad para el curso:** El dataset de Steam es masivo y complejo. Permite aplicar todas las capas requeridas:
-- Ingestión de metadatos y reseñas.
-- Ingeniería de características con NLP (descripciones) y Audio (trailers - opcional).
-- Agrupamiento de géneros híbridos.
-- Recomendación basada en grafos de tags y co-ocurrencia.
+La idoneidad de este proyecto para el curso radica en la naturaleza masiva y compleja del dataset de Steam, el cual permite abordar múltiples etapas del análisis de datos. Entre ellas, se incluyen la ingestión de metadatos y reseñas de usuarios, la ingeniería de características mediante técnicas de procesamiento de lenguaje natural aplicadas a descripciones textuales (y potencialmente análisis de audio en trailers), el agrupamiento de géneros híbridos, y el desarrollo de sistemas de recomendación basados en grafos que modelen relaciones de co-ocurrencia entre etiquetas.
 
 ## 2. Inventario de Fuentes
 
@@ -45,6 +41,12 @@
 - **Permiso:** El uso es para fines académicos y de investigación. Se respeta la licencia CC de la fuente.
 - **Riesgos de Datos Personales:** El dataset utiliza IDs de usuario anónimos de Steam. No se procesarán nombres reales, correos ni datos de pago.
 - **Reducción de Riesgos:** Se eliminarán cualquier mención de información sensible en las reseñas mediante limpieza de texto.
+
+## 6. Referencias Bibliográficas
+
+Boogaard, K. (2024). How to get unstuck: tips for moving past analysis paralysis. Work Life by Atlassian. https://www.atlassian.com/blog/productivity/analysis-paralysis
+
+Klimashevskaia, A., Jannach, D., Elahi, M., & Trattner, C. (2024). A survey on popularity bias in recommender systems. User Modeling and User-Adapted Interaction, 34(5), 1777–1834. https://doi.org/10.1007/s11257-024-09406-0
 
 ---
 

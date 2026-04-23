@@ -2,6 +2,8 @@
 
 ## 1. Declaración del Proyecto
 
+El presente proyecto se enmarca en el dominio del entretenimiento digital, específicamente en el ecosistema de videojuegos de la plataforma Steam. Este entorno se caracteriza por su amplio volumen de contenido, superando los 100,000 títulos disponibles, lo que genera un escenario complejo para la toma de decisiones por parte de los usuarios.
+
 En este contexto, se identifica como problemática principal la denominada “parálisis por análisis”, fenómeno que ocurre cuando los usuarios se enfrentan a una sobrecarga de opciones e información, lo que retrasa o incluso bloquea la toma de decisiones. Este comportamiento suele estar asociado a la necesidad de evaluar demasiadas alternativas, el miedo a tomar una decisión incorrecta y la dificultad para comparar múltiples variables simultáneamente, lo que impacta negativamente en la experiencia del usuario (Boogaard, 2024).
 
 Asimismo, los sistemas de recomendación tradicionales, si bien tienen como objetivo ayudar a los usuarios a encontrar contenido relevante de manera personalizada, presentan limitaciones importantes. En particular, se ha evidenciado la existencia de un sesgo de popularidad, donde los algoritmos tienden a recomendar predominantemente los elementos más populares del catálogo, reduciendo la exposición de aquellos pertenecientes a la “cola larga”. Este comportamiento no solo limita la diversidad y el valor de las recomendaciones para los usuarios, sino que también puede generar efectos de retroalimentación que refuerzan la popularidad de ciertos elementos a lo largo del tiempo (Klimashevskaia et al., 2024).

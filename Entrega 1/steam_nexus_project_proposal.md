@@ -2,9 +2,11 @@
 
 ## 1. Project Statement
 
-In this context, the main issue identified is “analysis paralysis,” a phenomenon that occurs when users are overwhelmed by too many options and too much information, which delays or even prevents decision-making. This behavior is often associated with the need to evaluate too many alternatives, the fear of making the wrong decision, and the difficulty of comparing multiple variables simultaneously, which negatively impacts the user experience (Boogaard, 2024).
+This project falls within the realm of digital entertainment, specifically the video game ecosystem of the Steam platform. This environment is characterized by its vast amount of content—with over 100,000 titles available—which creates a complex landscape for users when making decisions.
 
-Likewise, traditional recommendation systems, while aimed at helping users find personalized relevant content, have significant limitations. In particular, a popularity bias has been observed, where algorithms tend to predominantly recommend the most popular items in the catalog, reducing exposure to those in the “long tail.” This behavior not only limits the diversity and value of recommendations for users but can also generate feedback effects that reinforce the popularity of certain items over time (Klimashevskaia et al., 2024).
+In this context, the main issue identified is “analysis paralysis”, a phenomenon that occurs when users are overwhelmed by too many options and too much information, which delays or even prevents decision-making. This behavior is often associated with the need to evaluate too many alternatives, the fear of making the wrong decision, and the difficulty of comparing multiple variables simultaneously, which negatively impacts the user experience (Boogaard, 2024).
+
+Likewise, traditional recommendation systems, while aimed at helping users find personalized relevant content, have significant limitations. In particular, a popularity bias has been observed, where algorithms tend to predominantly recommend the most popular items in the catalog, reducing exposure to those in the “long tail”. This behavior not only limits the diversity and value of recommendations for users but can also generate feedback effects that reinforce the popularity of certain items over time (Klimashevskaia et al., 2024).
 
 Based on this challenge, the following product question arises: Is it possible to identify latent segments in the video game market and predict the success of new genre combinations using graph intelligence and natural language processing techniques?
 

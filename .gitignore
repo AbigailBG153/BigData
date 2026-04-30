@@ -28,6 +28,7 @@ env/
 build/
 dist/
 
+SteamNexus/generate_ppt.py
 # --- Jupyter Notebooks ---
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
@@ -44,3 +45,5 @@ SteamNexus/artifacts/
 # --- Otros ---
 .DS_Store
 Thumbs.db
+.generate_ppt.py
+.semester_group_assignment_brief.md
